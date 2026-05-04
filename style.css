@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(fonts\Manrope\Manrope-VariableFont_wght.ttf);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: Manrope, sans-serif;
+    font-weight: 750;
+    background-color: #1f2632;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 28px;
+}
+
+.advice_container {
+    background-color: #323a49;
+    padding: 35px 20px 0 20px;
+    border-radius: 15px;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advice_id {
+    color: #52ffa8;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.advice_text {
+    color: #cee3e9;
+    height: 100px;
+    font-size: 20px;
+}
+
+.advice_dice {
+    background-color: #52ffa8;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice_dice img {
+    width: 20px;
+}
